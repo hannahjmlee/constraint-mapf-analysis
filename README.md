@@ -1,7 +1,7 @@
 # An Analysis of Constraint-Based Multi-Agent Pathfinding Algorithms - Data and Results
 This repository holds all of the data and plots presented in the "An Analysis of Constraint-Based Multi_Agent Pathfinding Algorithms" paper. Raw and compiled data can be found in the Data repository. Grouped and Individual map plots are shown in the Figures directory. All figures are also present within this README. 
 
-If you would like to run the data scraper and plot generator. Please use the ExportData jupyter notebook to compile the raw data into csvs. Then, run the Plot jupyter notebook to generate all grouped and individual plots. 
+If you would like to run the data scraper and plot generator, please use the ExportData jupyter notebook to compile the raw data into csvs. Then, run the Plot jupyter notebook to generate all grouped and individual plots. 
 
 If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@illinois.edu). 
 
