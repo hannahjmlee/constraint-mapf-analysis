@@ -1,0 +1,111 @@
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{llccr||llccr}
+\multicolumn{1}{c}{Group} &
+  \multicolumn{1}{c}{Map} &
+  Size &
+  Res &
+  \multicolumn{1}{c|}{States} &
+  \multicolumn{1}{c}{Group} &
+  \multicolumn{1}{c}{Map} &
+  Size &
+  Res &
+  States \\ \hline
+\multirow{12}{*}{Empty} &
+  \multirow{3}{*}{empty-8-8} &
+  \multirow{3}{*}{8 x 8} &
+  1 &
+  64 &
+  \multirow{12}{*}{Maze} &
+  \multirow{3}{*}{maze-32-32-2} &
+  \multirow{3}{*}{32 x 32} &
+  1 &
+  666 \\
+ &                                  &                            & 2 & 225    &  &                                  &                            & 2 & 1951   \\
+ &                                  &                            & 4 & 841    &  &                                  &                            & 4 & 6381   \\
+ & \multirow{3}{*}{empty-16-16}     & \multirow{3}{*}{16 x 16}   & 1 & 256    &  & \multirow{3}{*}{maze-32-32-4}    & \multirow{3}{*}{32 x 32}   & 1 & 790    \\
+ &                                  &                            & 2 & 961    &  &                                  &                            & 2 & 2695   \\
+ &                                  &                            & 4 & 3721   &  &                                  &                            & 4 & 9853   \\
+ & \multirow{3}{*}{empty-32-32}     & \multirow{3}{*}{32 x 32}   & 1 & 1024   &  & \multirow{3}{*}{maze-128-128-2}  & \multirow{3}{*}{128 x 128} & 1 & 10858  \\
+ &                                  &                            & 2 & 3969   &  &                                  &                            & 2 & 32383  \\
+ &                                  &                            & 4 & 15625  &  &                                  &                            & 4 & 107437 \\
+ & \multirow{3}{*}{empty-48-48}     & \multirow{3}{*}{48 x 48}   & 1 & 2304   &  & \multirow{3}{*}{maze-128-128-10} & \multirow{3}{*}{128 x 128} & 1 & 14818  \\
+ &                                  &                            & 2 & 9025   &  &                                  &                            & 2 & 56143  \\
+ &                                  &                            & 4 & 35721  &  &                                  &                            & 4 & 218317 \\ \hline
+\multirow{9}{*}{Rooms} &
+  \multirow{3}{*}{room-32-32-4} &
+  \multirow{3}{*}{32 x 32} &
+  1 &
+  682 &
+  \multirow{18}{*}{Games Small} &
+  \multirow{3}{*}{ht-chantry} &
+  \multirow{3}{*}{141 x 162} &
+  1 &
+  7461 \\
+ &                                  &                            & 2 & 1902   &  &                                  &                            & 2 & 27912  \\
+ &                                  &                            & 4 & 5878   &  &                                  &                            & 4 & 107742 \\
+ & \multirow{3}{*}{room-64-64-8}    & \multirow{3}{*}{64 x 64}   & 1 & 3232   &  & \multirow{3}{*}{ht-mansion-n}    & \multirow{3}{*}{270 x 133} & 1 & 8959   \\
+ &                                  &                            & 2 & 11090  &  &                                  &                            & 2 & 33376  \\
+ &                                  &                            & 4 & 40630  &  &                                  &                            & 4 & 128554 \\
+ & \multirow{3}{*}{room-64-64-16}   & \multirow{3}{*}{64 x 64}   & 1 & 3646   &  & \multirow{3}{*}{lak303d}         & \multirow{3}{*}{194 x 194} & 1 & 14784  \\
+ &                                  &                            & 2 & 13585  &  &                                  &                            & 2 & 54938  \\
+ &                                  &                            & 4 & 52297  &  &                                  &                            & 4 & 211230 \\ \cline{1-5}
+\multirow{12}{*}{Random} &
+  \multirow{3}{*}{random-32-32-10} &
+  \multirow{3}{*}{32 x 32} &
+  1 &
+  922 &
+   &
+  \multirow{3}{*}{lt-gallowstemplar-n} &
+  \multirow{3}{*}{180 x 251} &
+  1 &
+  10021 \\
+ &                                  &                            & 2 & 3185   &  &                                  &                            & 2 & 37637  \\
+ &                                  &                            & 4 & 11575  &  &                                  &                            & 4 & 145549 \\
+ & \multirow{3}{*}{random-32-32-20} & \multirow{3}{*}{32 x 32}   & 1 & 819    &  & \multirow{3}{*}{den312d}         & \multirow{3}{*}{81 x 65}   & 1 & 2445   \\
+ &                                  &                            & 2 & 2468   &  &                                  &                            & 2 & 8779   \\
+ &                                  &                            & 4 & 8040   &  &                                  &                            & 4 & 33105  \\
+ & \multirow{3}{*}{random-64-64-10} & \multirow{3}{*}{64 x 64}   & 1 & 3687   &  & \multirow{3}{*}{ost003d}         & \multirow{3}{*}{194 x 194} & 1 & 13214  \\
+ &                                  &                            & 2 & 12830  &  &                                  &                            & 2 & 49986  \\
+ &                                  &                            & 4 & 46764  &  &                                  &                            & 4 & 194168 \\ \cline{6-10}
+ &
+  \multirow{3}{*}{random-64-64-20} &
+  \multirow{3}{*}{64 x 64} &
+  1 &
+  3270 &
+  \multirow{9}{*}{Games - Large} &
+  \multirow{3}{*}{brc202d} &
+  \multirow{3}{*}{481 x 530} &
+  1 &
+  43151 \\
+ &                                  &                            & 2 & 10031  &  &                                  &                            & 2 & 162968 \\
+ &                                  &                            & 4 & 33225  &  &                                  &                            & 4 & 632432 \\ \cline{1-5}
+\multirow{9}{*}{Cities} &
+  \multirow{3}{*}{Berlin-1-256} &
+  \multirow{3}{*}{256 x 256} &
+  1 &
+  47536 &
+   &
+  \multirow{3}{*}{den520d} &
+  \multirow{3}{*}{257 x 256} &
+  1 &
+  28178 \\
+ &                                  &                            & 2 & 182171 &  &                                  &                            & 2 & 108918 \\
+ &                                  &                            & 4 & 712615 &  &                                  &                            & 4 & 427970 \\
+ &
+  \multirow{3}{*}{Boston-0-256} &
+  \multirow{3}{*}{256 x 256} &
+  1 &
+  47747 &
+   &
+  \multirow{3}{*}{w-woundedcoast} &
+  \multirow{3}{*}{578 x 642} &
+  1 &
+  34002 \\
+ &                                  &                            & 2 & 181232 &  &                                  &                            & 2 & 127838 \\
+ &                                  &                            & 4 & 705218 &  &                                  &                            & 4 & 495024 \\ \cline{6-10}
+ & \multirow{3}{*}{Paris-1-256}     & \multirow{3}{*}{256 x 256} & 1 & 47216  &  &                                  &                            &   &        \\
+ &                                  &                            & 2 & 179271 &  &                                  &                            &   &        \\
+ &                                  &                            & 4 & 697685 &  &                                  &                            &   &        \\ \cline{1-5}
+\end{tabular}
+\end{table}

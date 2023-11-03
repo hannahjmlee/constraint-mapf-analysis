@@ -1,0 +1,14 @@
+
+\begin{table*}[!t]
+\centering
+\begin{tabular}{m{0.02\linewidth}|m{0.27\linewidth}m{0.27\linewidth}m{0.27\linewidth}}
+& \centering\arraybackslash  Average Runtime &  \centering\arraybackslash  Success Rate &  \centering\arraybackslash Flowtime Ratios                              \\ \hline
+\centering\arraybackslash \begin{sideways} Empty         \end{sideways}& \includegraphics[width=1.0\linewidth]{Experiments/AverageTime_Empty.png}       & \includegraphics[width=1.0\linewidth]{Experiments/SuccessRate_Empty.png}       & \includegraphics[width=1.0\linewidth]{Experiments/CostRatios_Empty.png}       \\ \hline
+\centering\arraybackslash \begin{sideways} Random        \end{sideways}& \includegraphics[width=1.0\linewidth]{Experiments/AverageTime_Random.png}      & \includegraphics[width=1.0\linewidth]{Experiments/SuccessRate_Random.png}      & \includegraphics[width=1.0\linewidth]{Experiments/CostRatios_Random.png}      \\ \hline
+\centering\arraybackslash \begin{sideways} Rooms         \end{sideways}& \includegraphics[width=1.0\linewidth]{Experiments/AverageTime_Rooms.png}       & \includegraphics[width=1.0\linewidth]{Experiments/SuccessRate_Rooms.png}       & \includegraphics[width=1.0\linewidth]{Experiments/CostRatios_Rooms.png}       \\ \hline
+\centering\arraybackslash \begin{sideways} Maze          \end{sideways}& \includegraphics[width=1.0\linewidth]{Experiments/AverageTime_Maze.png}        & \includegraphics[width=1.0\linewidth]{Experiments/SuccessRate_Maze.png}        & \includegraphics[width=1.0\linewidth]{Experiments/CostRatios_Maze.png}        \\ \hline
+\centering\arraybackslash \begin{sideways} Cities        \end{sideways}& \includegraphics[width=1.0\linewidth]{Experiments/AverageTime_Cities.png}      & \includegraphics[width=1.0\linewidth]{Experiments/SuccessRate_Cities.png}      & \includegraphics[width=1.0\linewidth]{Experiments/CostRatios_Cities.png}      \\ \hline
+\centering\arraybackslash \begin{sideways} Games - Small \end{sideways}& \includegraphics[width=1.0\linewidth]{Experiments/AverageTime_Games-Small.png} & \includegraphics[width=1.0\linewidth]{Experiments/SuccessRate_Games-Small.png} & \includegraphics[width=1.0\linewidth]{Experiments/CostRatios_Games-Small.png} \\ \hline
+\centering\arraybackslash \begin{sideways} Games - Large \end{sideways}& \includegraphics[width=1.0\linewidth]{Experiments/AverageTime_Games-Large.png} & \includegraphics[width=1.0\linewidth]{Experiments/SuccessRate_Games-Large.png} & \includegraphics[width=1.0\linewidth]{Experiments/CostRatios_Games-Large.png}
+\end{tabular}
+\end{table*}
