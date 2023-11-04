@@ -16,6 +16,8 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |  Games-Small | ![plot-Games-Small](./Figures/GroupedFigures/AverageTime_Games-Small.png) | ![plot-Games-Small](./Figures/GroupedFigures/SuccessRate_Games-Small.png) | ![plot-Games-Small](./Figures/GroupedFigures/CostRatios_Games-Small.png) | 
 |  Games-Large | ![plot-Games-Large](./Figures/GroupedFigures/AverageTime_Games-Large.png) | ![plot-Games-Large](./Figures/GroupedFigures/SuccessRate_Games-Large.png) | ![plot-Games-Large](./Figures/GroupedFigures/CostRatios_Games-Large.png) |
 
+
+
 ## Individual Map Plots
 | Map | Average Runtime | Success Rate | Flowtime Ratios | 
 |--|--|--|--|
@@ -45,6 +47,9 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |  ost003d | ![plot-ost003d](./Figures/IndividualFigures/AverageTime_ost003d.png) | ![plot-ost003d](./Figures/IndividualFigures/SuccessRate_ost003d.png) | ![plot-ost003d](./Figures/IndividualFigures/CostRatios_ost003d.png) | 
 |  brc202d | ![plot-brc202d](./Figures/IndividualFigures/AverageTime_brc202d.png) | ![plot-brc202d](./Figures/IndividualFigures/SuccessRate_brc202d.png) | ![plot-brc202d](./Figures/IndividualFigures/CostRatios_brc202d.png) | 
 |  den520d | ![plot-den520d](./Figures/IndividualFigures/AverageTime_den520d.png) | ![plot-den520d](./Figures/IndividualFigures/SuccessRate_den520d.png) | ![plot-den520d](./Figures/IndividualFigures/CostRatios_den520d.png) | 
+|  w_woundedcoast | ![plot-w_woundedcoast](./Figures/IndividualFigures/AverageTime_w_woundedcoast.png) | ![plot-w_woundedcoast](./Figures/IndividualFigures/SuccessRate_w_woundedcoast.png) | ![plot-w_woundedcoast](./Figures/IndividualFigures/CostRatios_w_woundedcoast.png) |
+
+
 
 
 ## Graph Statistics and Map Groupings
@@ -131,6 +136,3 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |               | w-woundedcoast      | 578 x 642 | 1   | 34002  | 2       | 14      | 2       | 14      |
 |               |                     |           | 2   | 127838 | 2       | 10      | 2       | 10      |
 |               |                     |           | 4   | 495024 | 0       | 0       | 0       | 0       |
-|  w_woundedcoast | ![plot-w_woundedcoast](./Figures/IndividualFigures/AverageTime_w_woundedcoast.png) | ![plot-w_woundedcoast](./Figures/IndividualFigures/SuccessRate_w_woundedcoast.png) | ![plot-w_woundedcoast](./Figures/IndividualFigures/CostRatios_w_woundedcoast.png) |
-
-
