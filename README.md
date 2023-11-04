@@ -5,6 +5,9 @@ If you would like to run the data scraper and plot generator, please use the Exp
 
 If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@illinois.edu). 
 
+<br>
+<br> 
+
 ## Grouped Map Plots
 | Group | Average Runtime | Success Rate | Flowtime Ratios | 
 |--|--|--|--|
@@ -16,7 +19,8 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |  Games-Small | ![plot-Games-Small](./Figures/GroupedFigures/AverageTime_Games-Small.png) | ![plot-Games-Small](./Figures/GroupedFigures/SuccessRate_Games-Small.png) | ![plot-Games-Small](./Figures/GroupedFigures/CostRatios_Games-Small.png) | 
 |  Games-Large | ![plot-Games-Large](./Figures/GroupedFigures/AverageTime_Games-Large.png) | ![plot-Games-Large](./Figures/GroupedFigures/SuccessRate_Games-Large.png) | ![plot-Games-Large](./Figures/GroupedFigures/CostRatios_Games-Large.png) |
 
-
+<br>
+<br> 
 
 ## Individual Map Plots
 | Map | Average Runtime | Success Rate | Flowtime Ratios | 
@@ -49,8 +53,8 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |  den520d | ![plot-den520d](./Figures/IndividualFigures/AverageTime_den520d.png) | ![plot-den520d](./Figures/IndividualFigures/SuccessRate_den520d.png) | ![plot-den520d](./Figures/IndividualFigures/CostRatios_den520d.png) | 
 |  w_woundedcoast | ![plot-w_woundedcoast](./Figures/IndividualFigures/AverageTime_w_woundedcoast.png) | ![plot-w_woundedcoast](./Figures/IndividualFigures/SuccessRate_w_woundedcoast.png) | ![plot-w_woundedcoast](./Figures/IndividualFigures/CostRatios_w_woundedcoast.png) |
 
-
-
+<br>
+<br> 
 
 ## Graph Statistics and Map Groupings
 | Type          | Map                 | Size      | Res | States | CBS Min | CBS Max | PBS Min | PBS Max |
