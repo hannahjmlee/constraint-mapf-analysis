@@ -13,11 +13,9 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |--|--|--|--|
 |  Empty | ![plot-Empty](./Figures/GroupedFigures/AverageTime_Empty.png) | ![plot-Empty](./Figures/GroupedFigures/SuccessRate_Empty.png) | ![plot-Empty](./Figures/GroupedFigures/CostRatios_Empty.png) |
 |  Random | ![plot-Random](./Figures/GroupedFigures/AverageTime_Random.png) | ![plot-Random](./Figures/GroupedFigures/SuccessRate_Random.png) | ![plot-Random](./Figures/GroupedFigures/CostRatios_Random.png) |
-|  Rooms | ![plot-Rooms](./Figures/GroupedFigures/AverageTime_Rooms.png) | ![plot-Rooms](./Figures/GroupedFigures/SuccessRate_Rooms.png) | ![plot-Rooms](./Figures/GroupedFigures/CostRatios_Rooms.png) |
-|  Maze | ![plot-Maze](./Figures/GroupedFigures/AverageTime_Maze.png) | ![plot-Maze](./Figures/GroupedFigures/SuccessRate_Maze.png) | ![plot-Maze](./Figures/GroupedFigures/CostRatios_Maze.png) |
+|  Narrow | ![plot-Narrow](./Figures/GroupedFigures/AverageTime_Narrow.png) | ![plot-Narrow](./Figures/GroupedFigures/SuccessRate_Narrow.png) | ![plot-Narrow](./Figures/GroupedFigures/CostRatios_Narrow.png) |
 |  Cities | ![plot-Cities](./Figures/GroupedFigures/AverageTime_Cities.png) | ![plot-Cities](./Figures/GroupedFigures/SuccessRate_Cities.png) | ![plot-Cities](./Figures/GroupedFigures/CostRatios_Cities.png) |
-|  Games-Small | ![plot-Games-Small](./Figures/GroupedFigures/AverageTime_Games-Small.png) | ![plot-Games-Small](./Figures/GroupedFigures/SuccessRate_Games-Small.png) | ![plot-Games-Small](./Figures/GroupedFigures/CostRatios_Games-Small.png) |
-|  Games-Large | ![plot-Games-Large](./Figures/GroupedFigures/AverageTime_Games-Large.png) | ![plot-Games-Large](./Figures/GroupedFigures/SuccessRate_Games-Large.png) | ![plot-Games-Large](./Figures/GroupedFigures/CostRatios_Games-Large.png) |
+|  Games | ![plot-Games](./Figures/GroupedFigures/AverageTime_Games.png) | ![plot-Games](./Figures/GroupedFigures/SuccessRate_Games.png) | ![plot-Games](./Figures/GroupedFigures/CostRatios_Games.png) |
 
 <br>
 <br>
@@ -83,7 +81,7 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |               | random-64-64-20     | 64 x 64   | 1   | 3270   | 16      | 54      | 26      | 58      |
 |               |                     |           | 2   | 10031  | 8       | 46      | 22      | 48      |
 |               |                     |           | 4   | 33225  | 8       | 36      | 14      | 46      |
-| Rooms         | room-32-32-4        | 32 x 32   | 1   | 682    | 10      | 24      | 4       | 28      |
+| Narrow        | room-32-32-4        | 32 x 32   | 1   | 682    | 10      | 24      | 4       | 28      |
 |               |                     |           | 2   | 1902   | 4       | 22      | 4       | 26      |
 |               |                     |           | 4   | 5878   | 4       | 20      | 4       | 26      |
 |               | room-64-64-8        | 64 x 64   | 1   | 3232   | 6       | 20      | 10      | 26      |
@@ -92,7 +90,7 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |               | room-64-64-16       | 64 x 64   | 1   | 3646   | 6       | 30      | 10      | 28      |
 |               |                     |           | 2   | 13585  | 6       | 20      | 10      | 22      |
 |               |                     |           | 4   | 52297  | 2       | 18      | 2       | 18      |
-| Maze          | maze-32-32-2        | 32 x 32   | 1   | 666    | 6       | 18      | 6       | 20      |
+|               | maze-32-32-2        | 32 x 32   | 1   | 666    | 6       | 18      | 6       | 20      |
 |               |                     |           | 2   | 1951   | 6       | 16      | 6       | 16      |
 |               |                     |           | 4   | 6381   | 2       | 12      | 2       | 16      |
 |               | maze-32-32-4        | 32 x 32   | 1   | 790    | 2       | 16      | 4       | 20      |
@@ -113,7 +111,7 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |               | Paris-1-256         | 256 x 256 | 1   | 47216  | 2       | 46      | 12      | 54      |
 |               |                     |           | 2   | 179271 | 2       | 34      | 4       | 34      |
 |               |                     |           | 4   | 697685 | 2       | 16      | 2       | 16      |
-| Games - Small | ht-chantry          | 141 x 162 | 1   | 7461   | 6       | 26      | 10      | 30      |
+| Games         | ht-chantry          | 141 x 162 | 1   | 7461   | 6       | 26      | 10      | 30      |
 |               |                     |           | 2   | 27912  | 4       | 22      | 4       | 22      |
 |               |                     |           | 4   | 107742 | 2       | 16      | 2       | 16      |
 |               | ht-mansion-n        | 270 x 133 | 1   | 8959   | 6       | 40      | 18      | 50      |
@@ -131,7 +129,7 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |               | ost003d             | 194 x 194 | 1   | 13214  | 4       | 22      | 4       | 20      |
 |               |                     |           | 2   | 49986  | 2       | 18      | 2       | 16      |
 |               |                     |           | 4   | 194168 | 2       | 10      | 2       | 12      |
-| Games - Large | brc202d             | 481 x 530 | 1   | 43151  | 2       | 12      | 2       | 12      |
+|               | brc202d             | 481 x 530 | 1   | 43151  | 2       | 12      | 2       | 12      |
 |               |                     |           | 2   | 162968 | 2       | 10      | 2       | 8       |
 |               |                     |           | 4   | 632432 | 2       | 4       | 2       | 4       |
 |               | den520d             | 257 x 256 | 1   | 28178  | 8       | 42      | 8       | 40      |
