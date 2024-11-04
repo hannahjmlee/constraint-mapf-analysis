@@ -1,7 +1,9 @@
 # An Analysis of Constraint-Based Multi-Agent Pathfinding Algorithms - Data and Results
 This repository holds all of the data and plots presented in the "An Analysis of Constraint-Based Multi_Agent Pathfinding Algorithms" paper. Raw and compiled data can be found in the Data repository. Grouped and Individual map plots are shown in the Figures directory. All figures are also present within this README.
 
-If you would like to run the data scraper and plot generator, please unzip the stat_files.zip and then use the ExportData jupyter notebook to compile the raw data into csvs. Then, run the Plot jupyter notebook to generate all grouped and individual plots.
+If you are looking to reproduce our results, please see TODO. For our representation topological analysis code, please see TODO. 
+
+If you would like to run the data scraper and plot generator, please run the Plot jupyter notebook to generate all grouped and individual plots.
 
 If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@illinois.edu).
 
@@ -11,11 +13,11 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 ## Grouped Map Plots
 | Group | Average Runtime | Success Rate | Flowtime Ratios |
 |--|--|--|--|
-|  Empty | ![plot-Empty](./Figures/GroupedFigures/AverageTime_Empty.png) | ![plot-Empty](./Figures/GroupedFigures/SuccessRate_Empty.png) | ![plot-Empty](./Figures/GroupedFigures/CostRatios_Empty.png) |
-|  Random | ![plot-Random](./Figures/GroupedFigures/AverageTime_Random.png) | ![plot-Random](./Figures/GroupedFigures/SuccessRate_Random.png) | ![plot-Random](./Figures/GroupedFigures/CostRatios_Random.png) |
+|  Empty | ![plot-Empty](./Figures/GroupedFigures/AverageTime_empty.png) | ![plot-Empty](./Figures/GroupedFigures/SuccessRate_empty.png) | ![plot-Empty](./Figures/GroupedFigures/CostRatios_empty.png) |
+|  Random | ![plot-Random](./Figures/GroupedFigures/AverageTime_random.png) | ![plot-Random](./Figures/GroupedFigures/SuccessRate_random.png) | ![plot-Random](./Figures/GroupedFigures/CostRatios_random.png) |
 |  Narrow | ![plot-Narrow](./Figures/GroupedFigures/AverageTime_Narrow.png) | ![plot-Narrow](./Figures/GroupedFigures/SuccessRate_Narrow.png) | ![plot-Narrow](./Figures/GroupedFigures/CostRatios_Narrow.png) |
-|  Cities | ![plot-Cities](./Figures/GroupedFigures/AverageTime_Cities.png) | ![plot-Cities](./Figures/GroupedFigures/SuccessRate_Cities.png) | ![plot-Cities](./Figures/GroupedFigures/CostRatios_Cities.png) |
-|  Games | ![plot-Games](./Figures/GroupedFigures/AverageTime_Games.png) | ![plot-Games](./Figures/GroupedFigures/SuccessRate_Games.png) | ![plot-Games](./Figures/GroupedFigures/CostRatios_Games.png) |
+|  Cities | ![plot-Cities](./Figures/GroupedFigures/AverageTime_cities.png) | ![plot-Cities](./Figures/GroupedFigures/SuccessRate_cities.png) | ![plot-Cities](./Figures/GroupedFigures/CostRatios_cities.png) |
+|  Games | ![plot-Games](./Figures/GroupedFigures/AverageTime_games.png) | ![plot-Games](./Figures/GroupedFigures/SuccessRate_games.png) | ![plot-Games](./Figures/GroupedFigures/CostRatios_games.png) |
 
 <br>
 <br>
