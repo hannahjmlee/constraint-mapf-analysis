@@ -15,7 +15,7 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 |--|--|--|--|
 |  Empty | ![plot-Empty](./Figures/GroupedFigures/AverageTime_empty.png) | ![plot-Empty](./Figures/GroupedFigures/SuccessRate_empty.png) | ![plot-Empty](./Figures/GroupedFigures/CostRatios_empty.png) |
 |  Random | ![plot-Random](./Figures/GroupedFigures/AverageTime_random.png) | ![plot-Random](./Figures/GroupedFigures/SuccessRate_random.png) | ![plot-Random](./Figures/GroupedFigures/CostRatios_random.png) |
-|  Narrow | ![plot-Narrow](./Figures/GroupedFigures/AverageTime_Narrow.png) | ![plot-Narrow](./Figures/GroupedFigures/SuccessRate_Narrow.png) | ![plot-Narrow](./Figures/GroupedFigures/CostRatios_Narrow.png) |
+|  Narrow | ![plot-Narrow](./Figures/GroupedFigures/AverageTime_narrow.png) | ![plot-Narrow](./Figures/GroupedFigures/SuccessRate_narrow.png) | ![plot-Narrow](./Figures/GroupedFigures/CostRatios_narrow.png) |
 |  Cities | ![plot-Cities](./Figures/GroupedFigures/AverageTime_cities.png) | ![plot-Cities](./Figures/GroupedFigures/SuccessRate_cities.png) | ![plot-Cities](./Figures/GroupedFigures/CostRatios_cities.png) |
 |  Games | ![plot-Games](./Figures/GroupedFigures/AverageTime_games.png) | ![plot-Games](./Figures/GroupedFigures/SuccessRate_games.png) | ![plot-Games](./Figures/GroupedFigures/CostRatios_games.png) |
 
