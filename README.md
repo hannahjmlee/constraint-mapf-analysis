@@ -11,7 +11,7 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 <br>
 
 ## Grouped Map Plots
-| Group | Runtime Instances | Success Rate | Flowtime Ratios |
+| Group | Runtime Instances | Success Rate | Sum-of-Costs Ratios |
 |--|--|--|--|
 |  Empty | ![plot-Empty](./Figures/GroupedFigures/RuntimeInstances_empty.png) | ![plot-Empty](./Figures/GroupedFigures/SuccessRate_empty.png) | ![plot-Empty](./Figures/GroupedFigures/CostRatios_empty.png) |
 |  Random | ![plot-Random](./Figures/GroupedFigures/RuntimeInstances_random.png) | ![plot-Random](./Figures/GroupedFigures/SuccessRate_random.png) | ![plot-Random](./Figures/GroupedFigures/CostRatios_random.png) |
@@ -23,7 +23,7 @@ If you have any questions, please contact me at [hannah9@illinois.edu](hannah9@i
 <br>
 
 ## Individual Map Plots
-| Map | Runtime Instances | Success Rate | Flowtime Ratios |
+| Map | Runtime Instances | Success Rate | Sum-of-Costs Ratios |
 |--|--|--|--|
 |  empty-8-8 | ![plot-empty-8-8](./Figures/IndividualFigures/RuntimeInstances_empty-8-8.png) | ![plot-empty-8-8](./Figures/IndividualFigures/SuccessRate_empty-8-8.png) | ![plot-empty-8-8](./Figures/IndividualFigures/CostRatios_empty-8-8.png) |
 |  empty-16-16 | ![plot-empty-16-16](./Figures/IndividualFigures/RuntimeInstances_empty-16-16.png) | ![plot-empty-16-16](./Figures/IndividualFigures/SuccessRate_empty-16-16.png) | ![plot-empty-16-16](./Figures/IndividualFigures/CostRatios_empty-16-16.png) |
